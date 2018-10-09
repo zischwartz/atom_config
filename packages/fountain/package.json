@@ -1,0 +1,58 @@
+{
+  "_from": "https://www.atom.io/api/packages/fountain/versions/0.8.1/tarball",
+  "_id": "fountain@0.8.1",
+  "_inBundle": false,
+  "_integrity": "sha512-mzWocpvvwS7vcvKBpJETMasEAdtRhw5aZfPXi9g8699oM+Bgb6kyxl7DIqkRwrnq5Me7zG6MAF57MECdPY3Y0g==",
+  "_location": "/fountain",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/fountain/versions/0.8.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/fountain/versions/0.8.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/fountain/versions/0.8.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/fountain/versions/0.8.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/fountain/versions/0.8.1/tarball",
+  "_shasum": "dc69dd3a5c44c36b2bc3f2c422de9591dadbe189",
+  "_spec": "https://www.atom.io/api/packages/fountain/versions/0.8.1/tarball",
+  "_where": "/private/var/folders/q9/wpsf10t13hd357v7jj7dkk0w0000gn/T/apm-install-dir-11899-3091-1sjzvod.8zri",
+  "bugs": {
+    "url": "https://github.com/superlou/fountain-atom/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "afterwriting": "^1.11.0",
+    "atom-package-deps": "^4.6.0",
+    "atom-space-pen-views": "^2.0.0",
+    "sortablejs": "^1.6.1",
+    "underscore-plus": "^1.0.0",
+    "xregexp": "^3.1.1"
+  },
+  "deprecated": false,
+  "description": "Grammar and tools for the Fountain screenwriting syntax",
+  "deserializers": {
+    "FountainPreviewView": "deserializeFountainPreviewView"
+  },
+  "devDependencies": {
+    "atom-grammar-test": "^0.6.4"
+  },
+  "engines": {
+    "atom": ">=1.17.0 <2.0.0"
+  },
+  "homepage": "https://github.com/superlou/fountain-atom#readme",
+  "license": "GPLv3",
+  "main": "./lib/fountain",
+  "name": "fountain",
+  "package-deps": [
+    "pdf-view:0.59.0"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superlou/fountain-atom.git"
+  },
+  "version": "0.8.1"
+}

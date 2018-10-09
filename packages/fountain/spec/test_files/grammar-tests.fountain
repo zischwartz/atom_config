@@ -1,0 +1,90 @@
+/* SYNTAX TEST "source.fountain" */
+MOM (O. S.)
+/*^ entity.name.character.fountain */
+Luke! Come down for supper!
+/*^ string.other.dialogue.fountain */
+
+INT. - A ROOM
+/*^ keyword.other.heading.scene.fountain */
+
+The room is boring and nearly empty.  Also, there's a cat.
+
+GÜNTHER
+/*^ entity.name.character.fountain */
+Hello.  I'm a cat with unicode characters in my name.
+
+BOLÂO
+/*^ entity.name.character.fountain */
+My name has unicode in it, too!
+
+JOHN (V.O.)
+/*^ entity.name.character.fountain */
+My name has none of those fancy characters.
+
+JOHN's name right here shouldn't be a character since there's more text that's not uppercase following it.  This should be fixed now, too.
+
+INT. - DIALOGUE SYNTAX HIGHLIGHT NEEDS TO WORK WITH "CONT'D"
+
+PERSON (CONT'D)
+/*^ entity.name.character.fountain */
+Hello world!
+/*^ string.other.dialogue.fountain */
+
+@ronald
+/*^ entity.name.character.fountain */
+I should be a forced character even though I'm lowercase.
+
+Lyrics are heard through the door.
+
+~This song right here,
+/*^ lyric.fountain */
+~is not sung by a characteeer.
+/*^ lyric.fountain */
+
+LAURIELLA
+~Interestingly, Afterwriting doesn't allow multiple lines of lyric in it's rendering.
+/*^ lyric.fountain */
+
+# Section
+/*^ markup.heading.heading-1.gfm */
+
+Ready for it?  Here comes...
+
+## Sub-section.
+/*^ markup.heading.heading-2.gfm */
+
+Now, that's how to subsection.  And, here's the rest of them:
+
+### Level 3 section
+/*^ markup.heading.heading-3.gfm */
+
+#### Level 4 section
+/*^ markup.heading.heading-4.gfm */
+
+##### Level 5 section
+/*^ markup.heading.heading-5.gfm */
+
+###### Level 6 section
+/*^ markup.heading.heading-6.gfm */
+
+INT. WEST LAKE
+
+The water glints oily around the half submerged [[rename]] SS JACKRABBIT.
+/*                                              ^ comment.note.fountain */
+
+[[Improve description]]
+/*^ comment.note.fountain */
+
+Lauriella waits patiently.
+
+INT. TESTING SYNOPSIS
+
+= This scene introduces the smell of hot metal.
+/*^ comment.synopses.fountain */
+
+The scene starts.
+
+=this synopses is sloppy and doesn't have a space after the equal sign.
+/*^ comment.synopses.fountain */
+
+More scene description continues here.
